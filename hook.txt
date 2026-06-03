@@ -1,0 +1,117 @@
+useState - add/manage local state in a function
+
+const [state sd state]= usestate(initial value)
+
+useReducer -> Manage complex state logic
+
+useContext -> createContext->create global context to share data accross components
+    |
+    V
+Access context provider value
+
+useEffect -> Run side Effects (time fetching API's etc)
+
+
+Three Rules For Hooks
+
+1) u can only be calles inside main function component
+
+2) hook can only be called at top leval of component
+
+3) hook can not be conditional
+
+import {*HookName} from 'react'
+
+
+
+
+
+
+
+
+{
+    
+    "editor.fontSize": 18,
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "vscode-pets.petSize": "small",
+    "vscode-pets.theme": "beach",
+    "vscode-pets.throwBallWithMouse": true,
+    "workbench.editor.empty.hint": "hidden",
+    "chatgpt.lang": "en",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "background.windowBackgrounds": [],
+    "background.autoInstall": false,
+    "background.backgroundOpacity": [
+        0.7,
+        0.7,
+        0.9,
+        0.9
+    ],
+    "background.editorBackgrounds": [
+        "c:/Users/LJENG/Downloads/100p.gif"
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "background.useInvertedOpacity": true,
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on",
+    "launch": {
+        "configurations": [
+        
+
+        ]
+    },
+    "python.createEnvironment.trigger": "off",
+    "jdk.telemetry.enabled": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "files.autoSave": "afterDelay",
+    "js/ts.updateImportsOnFileMove.enabled": "always"
+}
+
+
+
+
+
+
+
+
+
+{
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "files.autoSaveDelay": 50,
+    "workbench.iconTheme": "material-icon-theme",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontSize": 18,
+    "editor.mouseWheelZoom": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "jdk.telemetry.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "workbench.editor.empty.hint": "hidden",
+    "files.associations": {
+        "*.html": "html"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.statusBar.visible": false,
+    "vscode-edge-devtools.headless": false
+}
